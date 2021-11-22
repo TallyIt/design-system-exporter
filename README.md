@@ -1,47 +1,16 @@
 <img src="./readme-icon.png" alt="Supernova Logo" style="max-width:100%;">
 
-
-[Supernova](https://supernova.io) is a design system platform that allows you to seamlessly translate your design system data to production-ready code. Supernova works with any platform or tech stack, is used by many developers and organizations around the world, and can help you save time by replacing manual and repetitive tasks that all developers hate. To learn everything Supernova, please check out our [developer documentation](https://developers.supernova.io/).
+[Supernova](https://supernova.io) is a design system platform that manages your assets, tokens, components and allows you to write spectacular documentations for your entire teams. And because you found your way here, you are probably interested in its most advanced functionality - automatic hand-off of design and development assets, tokens and data in general. To learn everything Supernova, please check out our [developer documentation](https://developers.supernova.io/).
 
 
 # Typescript Exporter
 
-
-The Tyoe Exporter allows you to **produce production-ready code for all product styles (such as colors) defined inside your design system** in such a way that you can immediately use them to style your application elements. Specifically, this exporter automates the coding of:
-
-- [x] Color definitions
-- [x] Text Styles
-- [x] Gradients
-- [x] Shadows
-- [x] Borders
-
-You can generate all production ready-code either manually using Supernova's [VS Code extension](https://marketplace.visualstudio.com/items?itemName=SupernovaIO.pulsar-vsc-extension), or automate your code delivery pipeline using Supernova [Design Continuous Delivery](https://supernova.io/automated-code-delivery).
-
-
-## Example Usage
-
-Once you have run the exporter against your design system, you can start using the code in your codebase right away. Here are a few examples of how you can use the output of the Typescript exporter:
-
-### [Example 1]
-
-[Todo description]
-
-```
-[Code]
-```
-
-
-### [Example 2]
-
-[Todo description]
-
-```
-Code
-```
+The Type Exporter will allow you to **produce production-ready code for all product styles (such as colors) defined inside your design system** in such a way that you can immediately use them to style your application elements. This exporter is currently work in progress. We are evaluating how exactly this exporter can work and what structure it can produce. If you would like to tell us and contribute, please see the "Contributing" section.
 
 ## Installing
 
 In order to make the Supernova Typescript exporter available for your organization so you can start generating code from your design system, please follow the installation guide in our [developer documentation](https://developers.supernova.io/using-exporters/installing-exporters).
+
 
 ## Reporting Bugs or Requesting Features
 
@@ -66,31 +35,32 @@ This exporter is distributed under the [MIT license](./LICENSE.md). [We absolute
 - To understand everything you can do with Supernova and how much time and resources it can save you, go read our [product documentation](https://learn.supernova.io/)
 - Finally, to learn everything about what exporters are and how you can integrate with your codebase, go read our [developer documentation](https://developers.supernova.io/)
 
-## Other Supernova Exporters
+
+## Supernova Maintained Exporters
 
 We are developing and maintaining exporters for many major technologies. Here are all the official exporters maintained by Supernova:
 
-- [iOS Exporter](https://github.com/Supernova-Studio/exporter-ios)
+- [iOS Token & Style Exporter](https://github.com/Supernova-Studio/exporter-ios)
 - [iOS Localization Exporter](https://github.com/Supernova-Studio/exporter-ios-localization)
-- [Android Exporter](https://github.com/Supernova-Studio/exporter-android)
-- [React Exporter](https://github.com/Supernova-Studio/exporter-react)
-- [Flutter Exporter](https://github.com/Supernova-Studio/exporter-flutter)
-- [Angular Exporter](https://github.com/Supernova-Studio/exporter-angular)
-- [Typescript Exporter](https://github.com/Supernova-Studio/exporter-typescript)
-- [CSS Exporter](https://github.com/Supernova-Studio/exporter-css)
-- [LESS Exporter](https://github.com/Supernova-Studio/exporter-less)
-- [SASS Exporter](https://github.com/Supernova-Studio/exporter-sass)
-
-
-Additionally, we are also developing and maintaining exporters for specific use cases:
-
+- [Android Token & Style Exporter](https://github.com/Supernova-Studio/exporter-android)
+- [React Token & Style Exporter](https://github.com/Supernova-Studio/exporter-react)
+- [Flutter Token & Style Exporter](https://github.com/Supernova-Studio/exporter-flutter)
+- [Angular Token & Style Exporter](https://github.com/Supernova-Studio/exporter-angular)
+- [Typescript Token & Style Exporter](https://github.com/Supernova-Studio/exporter-typescript)
+- [CSS Token & Style Exporter](https://github.com/Supernova-Studio/exporter-css)
+- [LESS Token & Style Exporter](https://github.com/Supernova-Studio/exporter-less)
+- [SCSS Token & Style Exporter](https://github.com/Supernova-Studio/exporter-scss)
 - [Style Dictionary Exporter](https://github.com/Supernova-Studio/exporter-style-dictionary)
-- [HTML Preview Exporter](https://github.com/Supernova-Studio/exporter-html-preview)
 
-To browse all exporters created by our amazing community, please visit the [Supernova](https://supernova.io) Exporter Store.
+Additionally, you can also use asset exporters for all major targets, enjoy!:
 
+- [SVG Asset Exporter](https://github.com/Supernova-Studio/exporter-svg-assets)
+- [PDF Asset Exporter](https://github.com/Supernova-Studio/exporter-pdf-assets)
+- [PNG Asset Exporter](https://github.com/Supernova-Studio/exporter-png-assets)
+- [iOS Asset Catalogue Exporter](https://github.com/Supernova-Studio/exporter-ios-asset-catalogue)
+- [React Native Asset Exporter](https://github.com/Supernova-Studio/exporter-react-native-assets)
+- [Android Asset Exporter](https://github.com/Supernova-Studio/exporter-android-assets)
+- [Flutter PNG Asset Exporter](https://github.com/Supernova-Studio/exporter-flutter-png-assets)
+- [Flutter SVG Asset Exporter](https://github.com/Supernova-Studio/exporter-flutter-svg-assets)
 
-
-
-
-
+To browse all exporters created by our amazing community, please visit the [Supernova](https://supernova.io) Exporter Store. 
