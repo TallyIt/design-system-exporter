@@ -1,1 +1,6 @@
-{* Export example code goes here *}
+// spacing.pr
+export const spacing = {
+{{#each tokens.spacing}}
+  {{token.name}}: "{{token.value}}",
+{{/each}}
+} as const;
